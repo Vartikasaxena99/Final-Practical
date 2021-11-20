@@ -1,0 +1,75 @@
+body
+{
+    background-image: url("Final-Project.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.header 
+{
+    border-bottom: 1px solid silver;
+    text-align: center;
+}
+.header:hover
+{
+    border-bottom: 1px solid greenyellow;
+}
+nav ul 
+{
+    list-style-type: none;
+    display: inline-flex;
+}
+nav ul li 
+{
+    margin-right: 20px;
+    padding: 5px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.096);
+}
+nav ul li a 
+{
+    color: silver;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 2px;
+}
+nav ul li :hover
+{
+    background-color: rgba(128, 128, 128, 0);
+}
+nav ul li i 
+{
+    color: silver;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 2px;
+}
+li.navli a 
+{
+    color: silver;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 2px;
+}
+nav ul li .dropdown ul
+{
+    position: relative;
+    color:black;
+}
+.button-class
+{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top:12px;
+    padding-bottom: 12px;
+    
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgba(47, 255, 141, 0.904);
+    border-radius: 30px;
+}
